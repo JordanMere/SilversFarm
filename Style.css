@@ -138,4 +138,67 @@ img {
   width: 300px;
   height: 168px;
 }
+/* Set the background color to a light green */
+body {
+  background-color: #d3e5d1;
+}
+
+/* Use a rustic font for headings */
+h1, h2, h3 {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+/* Style the navigation links */
+nav a {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: #f7d78f;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #999;
+}
+
+nav a:hover {
+  background-color: #f0c05a;
+}
+
+/* Style the product images */
+.product-image {
+  width: 300px;
+  height: 168px;
+  border: 5px solid #fff;
+  box-shadow: 2px 2px 5px #999;
+}
+
+/* Style the "Add to Cart" buttons */
+.add-to-cart {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f7d78f;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #999;
+}
+
+.add-to-cart:hover {
+  background-color: #f0c05a;
+}
+
+/* Add a border to the product information */
+.product-info {
+  border: 1px solid #999;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px #999;
+}
+
 
