@@ -1,0 +1,141 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base Styles */
+body {
+  background-color: #E8F1F2;
+}
+
+main {
+  border: 1px solid #000;
+}
+
+header, footer, .product {
+  background-color: #fff;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1, h2, h3 {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+
+
+/* Main Styles */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 2rem;
+}
+
+
+.product {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+
+.product img {
+  width: 300px;
+  height: 168px;
+  margin-right: 10px;
+}
+
+.product-info {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.product h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.product p {
+  margin-top: 0.5rem;
+  color: #666;
+}
+
+.product button {
+  display: block;
+  margin: 1rem auto 0;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+img {
+  width: 300px;
+  height: 168px;
+}
+
